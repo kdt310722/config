@@ -37,7 +37,12 @@ jobs:
               run: pnpm build
 
             - name: Test
-              run: pnpm test
+              run: pnpm coverage
+
+            - name: Upload coverage reports to Codecov
+              uses: codecov/codecov-action@v3
+              env:
+                  CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
             - name: Set final commit status
               uses: myrotvorets/set-commit-status-action@master

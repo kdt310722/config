@@ -3,6 +3,7 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![ci][ci-src]][ci-href]
+[![coverage][coverage-src]][coverage-href]
 [![issues][issues-src]][issues-href]
 [![license][license-src]][license-href]
 
@@ -62,3 +63,5 @@ Published under [MIT License](LICENSE.md).
 [issues-href]: https://github.com/kdt310722/config/issues
 [license-src]: https://img.shields.io/npm/l/@kdt310722/config?style=flat&colorA=1B3C4A&colorB=32A9C3&label=license
 [license-href]: https://github.com/@kdt310722/config/blob/main/LICENSE.md
+[coverage-src]: https://img.shields.io/codecov/c/gh/kdt310722/config?style=flat&colorA=1B3C4A&colorB=32A9C3
+[coverage-href]: https://codecov.io/gh/kdt310722/config
