@@ -1,4 +1,4 @@
-import { type AnyObject, filter, map } from '@kdt310722/utils/object'
+import { type AnyObject, filter, map, resolveNestedOptions } from '@kdt310722/utils/object'
 import { hasPrefix, stripPrefix } from '@kdt310722/utils/string'
 import { UnflattenResolver, type UnflattenResolverOptions } from './unflatten'
 
@@ -14,7 +14,9 @@ export class EnvResolver extends UnflattenResolver {
     protected readonly trimPrefix: boolean
 
     public constructor(options: EnvResolverOptions = {}) {
-        super(options)
+        const unflattenOptions = resolveNestedOptions(options.unflatten ?? {})
+
+        super({ ...options, unflatten: unflattenOptions ? { delimiter: '__', ...unflattenOptions } : false })
 
         this.env = options.env ?? process.env
         this.prefix = options.prefix
