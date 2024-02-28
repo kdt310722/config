@@ -56,11 +56,11 @@
         "flat": "^6.0.1",
         "minimist": "^1.2.8",
         "yaml": "^2.4.0",
-        "zod-validation-error": "^3.0.2"
+        "zod-validation-error": "^3.0.3"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.0.1",
-        "@commitlint/config-conventional": "^19.0.0",
+        "@commitlint/cli": "^19.0.3",
+        "@commitlint/config-conventional": "^19.0.3",
         "@kdt310722/eslint-config": "^0.0.5",
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.4.2",
