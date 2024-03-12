@@ -59,8 +59,8 @@
         "zod-validation-error": "^3.0.3"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.0.3",
-        "@commitlint/config-conventional": "^19.0.3",
+        "@commitlint/cli": "^19.1.0",
+        "@commitlint/config-conventional": "^19.1.0",
         "@kdt310722/eslint-config": "^0.0.5",
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.4.6",
