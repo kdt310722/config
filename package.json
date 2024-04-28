@@ -55,7 +55,7 @@
         "camelcase": "^8.0.0",
         "flat": "^6.0.1",
         "minimist": "^1.2.8",
-        "yaml": "^2.4.1",
+        "yaml": "^2.4.2",
         "zod-validation-error": "^3.2.0"
     },
     "devDependencies": {
