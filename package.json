@@ -63,7 +63,7 @@
         "@commitlint/config-conventional": "^19.2.2",
         "@kdt310722/eslint-config": "^0.0.5",
         "@kdt310722/tsconfig": "^1.0.0",
-        "@swc/core": "^1.6.0",
+        "@swc/core": "^1.6.1",
         "@types/node": "^20.14.2",
         "@vitest/coverage-v8": "^1.6.0",
         "changelogen": "^0.5.5",
