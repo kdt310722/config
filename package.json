@@ -55,7 +55,7 @@
         "camelcase": "^8.0.0",
         "flat": "^6.0.1",
         "minimist": "^1.2.8",
-        "yaml": "^2.5.0",
+        "yaml": "^2.5.1",
         "zod-validation-error": "^3.3.1"
     },
     "devDependencies": {
@@ -64,7 +64,7 @@
         "@kdt310722/eslint-config": "^0.0.5",
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.7.23",
-        "@types/node": "^20.16.3",
+        "@types/node": "^20.16.4",
         "@vitest/coverage-v8": "^2.0.5",
         "changelogen": "^0.5.5",
         "eslint": "^8.57.0",
