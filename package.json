@@ -44,7 +44,7 @@
     },
     "peerDependencies": {
         "dotenv": "*",
-        "zod": ">=3.23.8"
+        "zod": ">=3.24.0"
     },
     "peerDependenciesMeta": {
         "dotenv": {
@@ -70,7 +70,7 @@
         "changelogen": "^0.5.7",
         "eslint": "^9.16.0",
         "execa": "^9.5.2",
-        "lint-staged": "^15.2.10",
+        "lint-staged": "^15.2.11",
         "npm-check-updates": "^17.1.11",
         "only-allow": "^1.2.1",
         "rimraf": "^6.0.1",
@@ -79,7 +79,7 @@
         "tsx": "^4.19.2",
         "typescript": "^5.7.2",
         "vitest": "^2.1.8",
-        "zod": "^3.23.8"
+        "zod": "^3.24.0"
     },
     "commitlint": {
         "extends": "@commitlint/config-conventional"
