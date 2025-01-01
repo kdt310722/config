@@ -1,5 +1,6 @@
 import { tap } from '@kdt310722/utils/function'
 import { type AnyObject, resolveNestedOptions } from '@kdt310722/utils/object'
+import deepmerge from 'deepmerge'
 import type { TypeOf, ZodTypeAny } from 'zod'
 import { ZodObject } from 'zod'
 import { type FromZodErrorOptions, fromZodError } from 'zod-validation-error'
@@ -29,11 +30,11 @@ export class Config<S extends ConfigSchema = Record<string, ZodTypeAny>> {
     }
 
     public resolve() {
-        const resolved: AnyObject = {}
+        let resolved: AnyObject = {}
 
         for (const resolver of this.resolvers) {
             try {
-                Object.assign(resolved, resolver.resolve(resolved))
+                resolved = deepmerge(resolved, resolver.resolve(resolved))
             } catch (error) {
                 throw tap(new ResolveConfigError('Failed to resolve config', { cause: error }), (err) => {
                     err.resolver = resolver
