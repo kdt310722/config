@@ -1,7 +1,7 @@
 import { tap } from '@kdt310722/utils/function'
 import { type AnyObject, resolveNestedOptions } from '@kdt310722/utils/object'
-import { ZodObject } from 'zod'
 import type { TypeOf, ZodTypeAny } from 'zod'
+import { ZodObject } from 'zod'
 import { type FromZodErrorOptions, fromZodError } from 'zod-validation-error'
 import { ParseConfigError, ResolveConfigError } from './errors'
 import type { Resolver } from './resolvers'
@@ -44,7 +44,7 @@ export class Config<S extends ConfigSchema = Record<string, ZodTypeAny>> {
         return resolved
     }
 
-    public parse(): TypeOf<ZodObject<S>> {
+    public parse() {
         const resolved = this.resolve()
         const result = ZodObject.create(this.schema).safeParse(resolved)
 
@@ -56,7 +56,7 @@ export class Config<S extends ConfigSchema = Record<string, ZodTypeAny>> {
             })
         }
 
-        return result.data
+        return result.data as unknown as TypeOf<ZodObject<S>>
     }
 
     protected formatParseError(error: Error) {
