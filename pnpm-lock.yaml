@@ -11,6 +11,9 @@ importers:
       '@kdt310722/utils':
         specifier: ^0.0.12
         version: 0.0.12
+      '@types/minimist':
+        specifier: ^1.2.5
+        version: 1.2.5
       camelcase:
         specifier: ^8.0.0
         version: 8.0.0
@@ -1516,6 +1519,9 @@ packages:
 
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
+
+  '@types/minimist@1.2.5':
+    resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
 
   '@types/node@22.10.3':
     resolution: {integrity: sha512-DifAyw4BkrufCILvD3ucnuN8eydUfc/C1GlyrnI+LK6543w5/L3VeVgf05o3B4fqSXP1dKYLOZsKfutpxPzZrw==}
@@ -5706,6 +5712,8 @@ snapshots:
   '@types/mdast@3.0.15':
     dependencies:
       '@types/unist': 2.0.11
+
+  '@types/minimist@1.2.5': {}
 
   '@types/node@22.10.3':
     dependencies:
