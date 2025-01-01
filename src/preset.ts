@@ -22,14 +22,6 @@ export function defineConfig<S extends ConfigSchema>(schema: S, options: DefineC
 
     const config = new Config(schema, configOptions)
 
-    if (argvOptions) {
-        config.addResolver(new ArgvResolver(argvOptions))
-    }
-
-    if (envOptions) {
-        config.addResolver(new EnvResolver(envOptions))
-    }
-
     if (jsonOptions || yamlOptions) {
         let path: string | undefined
 
@@ -51,6 +43,14 @@ export function defineConfig<S extends ConfigSchema>(schema: S, options: DefineC
         if (yamlOptions) {
             config.addResolver(new YamlResolver({ ...yamlOptions, path: yamlOptions.path ?? path }))
         }
+    }
+
+    if (envOptions) {
+        config.addResolver(new EnvResolver(envOptions))
+    }
+
+    if (argvOptions) {
+        config.addResolver(new ArgvResolver(argvOptions))
     }
 
     return config
