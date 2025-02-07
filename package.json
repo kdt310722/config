@@ -52,7 +52,7 @@
         }
     },
     "dependencies": {
-        "@kdt310722/utils": "^0.0.15",
+        "@kdt310722/utils": "^0.0.16",
         "@types/minimist": "^1.2.5",
         "camelcase": "^8.0.0",
         "deepmerge": "^4.3.1",
