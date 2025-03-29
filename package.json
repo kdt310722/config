@@ -58,7 +58,7 @@
         "deepmerge": "^4.3.1",
         "flat": "^6.0.1",
         "minimist": "^1.2.8",
-        "yaml": "^2.7.0",
+        "yaml": "^2.7.1",
         "zod-validation-error": "^3.4.0"
     },
     "devDependencies": {
