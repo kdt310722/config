@@ -59,7 +59,7 @@
         "flat": "^6.0.1",
         "minimist": "^1.2.8",
         "yaml": "^2.7.1",
-        "zod-validation-error": "^3.4.0"
+        "zod-validation-error": "^3.4.1"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.8.0",
@@ -67,12 +67,12 @@
         "@kdt310722/eslint-config": "^0.1.9",
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.11.22",
-        "@types/node": "^22.15.3",
+        "@types/node": "^22.15.14",
         "@vitest/coverage-v8": "^2.1.9",
         "changelogen": "^0.6.1",
         "eslint": "^9.26.0",
         "execa": "^9.5.2",
-        "lint-staged": "^15.5.1",
+        "lint-staged": "^15.5.2",
         "npm-check-updates": "^18.0.1",
         "only-allow": "^1.2.1",
         "rimraf": "^6.0.1",
