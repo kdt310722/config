@@ -34,7 +34,7 @@ importers:
         version: 2.8.0
       zod-validation-error:
         specifier: ^3.4.1
-        version: 3.4.1(zod@3.25.42)
+        version: 3.4.1(zod@3.25.45)
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.8.1
@@ -94,8 +94,8 @@ importers:
         specifier: ^2.1.9
         version: 2.1.9(@types/node@22.15.29)
       zod:
-        specifier: ^3.25.42
-        version: 3.25.42
+        specifier: ^3.25.45
+        version: 3.25.45
 
 packages:
 
@@ -3729,8 +3729,8 @@ packages:
     peerDependencies:
       zod: ^3.24.4
 
-  zod@3.25.42:
-    resolution: {integrity: sha512-PcALTLskaucbeHc41tU/xfjfhcz8z0GdhhDcSgrCTmSazUuqnYqiXO63M0QUBVwpBlsLsNVn5qHSC5Dw3KZvaQ==}
+  zod@3.25.45:
+    resolution: {integrity: sha512-kv1swJBZqv98NQibL0oVvkQE8rXT+6qGNM1FpZkFcJG2jnz4vbtu48bgaitp85CaBPLSKXibrEsU7MzJoVoZAA==}
 
 snapshots:
 
@@ -7684,8 +7684,8 @@ snapshots:
 
   yoctocolors@2.1.1: {}
 
-  zod-validation-error@3.4.1(zod@3.25.42):
+  zod-validation-error@3.4.1(zod@3.25.45):
     dependencies:
-      zod: 3.25.42
+      zod: 3.25.45
 
-  zod@3.25.42: {}
+  zod@3.25.45: {}
