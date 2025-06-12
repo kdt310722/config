@@ -44,7 +44,7 @@
     },
     "peerDependencies": {
         "dotenv": "*",
-        "zod": ">=3.25.62"
+        "zod": ">=3.25.63"
     },
     "peerDependenciesMeta": {
         "dotenv": {
@@ -59,7 +59,7 @@
         "flat": "^6.0.1",
         "minimist": "^1.2.8",
         "yaml": "^2.8.0",
-        "zod-validation-error": "^3.4.1"
+        "zod-validation-error": "^3.5.0"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.8.1",
@@ -78,10 +78,10 @@
         "rimraf": "^6.0.1",
         "simple-git-hooks": "^2.13.0",
         "tsup": "^8.5.0",
-        "tsx": "^4.20.1",
+        "tsx": "^4.20.2",
         "typescript": "^5.8.3",
         "vitest": "^2.1.9",
-        "zod": "^3.25.62"
+        "zod": "^3.25.63"
     },
     "commitlint": {
         "extends": "@commitlint/config-conventional"
