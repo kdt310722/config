@@ -59,7 +59,7 @@
         "flat": "^6.0.1",
         "minimist": "^1.2.8",
         "yaml": "^2.8.0",
-        "zod-validation-error": "^3.5.1"
+        "zod-validation-error": "^3.5.2"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.8.1",
