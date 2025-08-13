@@ -44,7 +44,7 @@
     },
     "peerDependencies": {
         "dotenv": "*",
-        "zod": ">=3.25.76"
+        "zod": ">=4.0.17"
     },
     "peerDependenciesMeta": {
         "dotenv": {
@@ -81,7 +81,7 @@
         "tsx": "^4.20.4",
         "typescript": "^5.9.2",
         "vitest": "^3.2.4",
-        "zod": "^3.25.76"
+        "zod": "^4.0.17"
     },
     "commitlint": {
         "extends": "@commitlint/config-conventional"
